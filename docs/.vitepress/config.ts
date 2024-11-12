@@ -16,7 +16,7 @@ export default defineConfig<ThemeConfig>({
             })
         }
     },
-    title: 'APP比比',
+    title: '运维技术',
     base: '/',
     head,
     description: 'github开源作品，开源小程序作品，vueJS项目作品，vue3+ts+vite构建项目教学',
@@ -24,10 +24,10 @@ export default defineConfig<ThemeConfig>({
     themeConfig: {
         beecodeurl: 'https://www.appbeebee.com/', //这里是内页ArticleLink组件用到的跳转第三方网址，一般用不到，仅仅用于二次开发
         sidebar: [{}], //这里如果删掉，左侧栏的内容全部不显示。页面布局会变成通栏
-        nav: [
-            { text: '比比活动福利', link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2NjY4NDM3MQ==&action=getalbum&album_id=2990480834551906308#wechat_redirect' },
-            { text: '比比原创小程序', link: 'https://beebee.work/' }
-        ],
+        // nav: [
+        //     { text: '比比活动福利', link: 'https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzg2NjY4NDM3MQ==&action=getalbum&album_id=2990480834551906308#wechat_redirect' },
+        //     { text: '比比原创小程序', link: 'https://beebee.work/' }
+        // ],
         music: [ //音乐列表，音乐播放器参数在.vitepress/store/player.ts。封面和歌词不支持可自行按照文章教程修改
             // {
             //     "id": 1,
